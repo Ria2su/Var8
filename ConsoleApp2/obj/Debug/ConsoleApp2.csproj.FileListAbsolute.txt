@@ -5,3 +5,10 @@ C:\Users\aKeno\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj
 C:\Users\aKeno\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
 C:\Users\aKeno\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\aKeno\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.AssemblyReference.cache
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\aKeno\Source\Repos\Var8\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

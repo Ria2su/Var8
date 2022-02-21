@@ -25,31 +25,31 @@ namespace ConsoleApp2 {
                 switch (number)
             {
                 case "1":
-                    employeeObject.getFio();
+                    turnerObject.getFio();
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
                     break;
                 case "2":
-                    employeeObject.getAge();
+                    turnerObject.getAge();
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                 case "3":
-                    employeeObject.getNumber();
+                    turnerObject.getNumber();
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                 case "4":
-                    employeeObject.getStage();
+                    turnerObject.getStage();
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
                         break;
                 case "5":
-                    turnerObject.getExp();
+                    turnerObject.getExp(); 
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
@@ -76,7 +76,7 @@ namespace ConsoleApp2 {
                         Console.Clear();
                         break;
                 case "9":
-                    employeeObject.ShowInfo();
+                    turnerObject.ShowInfo();
                         Console.WriteLine("Для продолжения нажмите любую клавишу...");
                         Console.ReadKey();
                         Console.Clear();
@@ -137,10 +137,7 @@ namespace ConsoleApp2 {
             Console.WriteLine("Табельный номер: " + _number);
             return _number;
         }
-        public void ShowInfo()
-        {
-            Console.WriteLine("Ваше Ф.И.О: " + _fio + "\nВаш возраст: " + _age + "\nВаш стаж: " + _stage + "\nВаш табельный номер: " + _number);
-        }
+        
 
 
     }
@@ -180,6 +177,11 @@ namespace ConsoleApp2 {
         {
             Experience._experience += 1;
             return Experience;
+        }
+         public void ShowInfo()
+        {
+            Console.WriteLine("Ваше Ф.И.О: " + _fio + "\nВаш возраст: " + _age + "\nВаш стаж: " + _stage + "\nВаш табельный номер: " + _number + "\nОпыт работы на предприятии: " 
+                + _experience + "\nВаш цех: " + _department);
         }
     }   
 }
